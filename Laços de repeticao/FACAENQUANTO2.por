@@ -1,15 +1,15 @@
 programa {
 	funcao inicio() {
     
-    inteiro numero, resultado =0
+    inteiro numero, i =0, resultado 
     
     escreva ("Digite um número: ")
     leia (numero)
     
-    faca { resultado = resultado + numero
-            numero = numero -1
-            
-        }enquanto (numero >=0)
+    faca { i++
+            resultado = resultado + i
+            escreva (" " + i)
+        }enquanto (i < numero)
         escreva(resultado)
 	}
 }
